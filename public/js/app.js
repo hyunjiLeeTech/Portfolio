@@ -20,13 +20,7 @@ function PageTransitions() {
   allSections.addEventListener("click", (e) => {
     const id = e.target.dataset.id;
     if (id) {
-      //   //remove selected from the other btns
-      //   sectBtns.forEach((btn) => {
-      //     btn.classList.remove("active");
-      //   });
-      //   e.target.classList.add("active");
       const secBtnElement = document.querySelector('[data-id="' + id + '"]');
-      console.log(secBtnElement);
       let currentBtn = document.querySelectorAll(".active-btn");
       currentBtn[0].className = currentBtn[0].className.replace(
         "active-btn",
