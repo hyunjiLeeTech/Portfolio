@@ -147,3 +147,9 @@
     }
   }
 }
+
+@media screen and (max-width: 435px) {
+  .contact-desc {
+    white-space: pre !important;
+  }
+}

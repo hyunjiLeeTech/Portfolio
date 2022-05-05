@@ -945,4 +945,10 @@ section {
     margin: 1rem 0.3rem;
   }
 }
+
+@media screen and (max-width: 435px) {
+  .contact-desc {
+    white-space: pre !important;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
